@@ -77,8 +77,8 @@ int main()
 {
     send_message sm;
     sm.init();
-    sm.add_phone_number<std::string>("+8618098841143");
-    //sm.add_phone_number<std::string>("+8618840851193");
+    sm.add_phone_number<std::string>("+861809884xxxx");
+    //sm.add_phone_number<std::string>("+861884085xxx3");
     sm.add_phone_template_param<std::string>("DCE","90%","1111");
     cout<<sm.send()<<endl;
     return 0;
