@@ -44,8 +44,8 @@ bool send_message::send()
 void send_message::init()
 { 
     //https://console.cloud.tencent.com/cam/overview  访问管理/访问密钥/API密钥管理
-    string secretId = "AKIDCoDJArwXWEqhJePiFVVEUZNK2GG2spuH";
-    string secretKey = "EBxjFUUmunPGtHOKFwQeqRlnc1D8AwUm";
+    string secretId = "xxxx";
+    string secretKey = "xxxx";
     
     m_cred = new Credential(secretId, secretKey);
     
